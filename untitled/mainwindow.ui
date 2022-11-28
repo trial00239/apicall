@@ -17,7 +17,7 @@
    <string notr="true">background-color:#FFFFFF</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="input">
     <property name="geometry">
      <rect>
       <x>30</x>
@@ -25,22 +25,6 @@
       <width>151</width>
       <height>21</height>
      </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
-    <property name="geometry">
-     <rect>
-      <x>220</x>
-      <y>100</y>
-      <width>151</width>
-      <height>21</height>
-     </rect>
-    </property>
-    <property name="cursor">
-     <cursorShape>ForbiddenCursor</cursorShape>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label">
@@ -325,21 +309,21 @@
    <widget class="QLabel" name="label_8">
     <property name="geometry">
      <rect>
-      <x>2</x>
-      <y>-31</y>
-      <width>721</width>
-      <height>531</height>
+      <x>540</x>
+      <y>100</y>
+      <width>81</width>
+      <height>141</height>
      </rect>
     </property>
     <property name="text">
-     <string>TextLabel</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_9">
+   <widget class="QLabel" name="Status">
     <property name="geometry">
      <rect>
-      <x>200</x>
-      <y>160</y>
+      <x>230</x>
+      <y>170</y>
       <width>191</width>
       <height>221</height>
      </rect>
@@ -348,9 +332,21 @@
      <string/>
     </property>
    </widget>
+   <widget class="QLabel" name="output">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>100</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <zorder>label_8</zorder>
-   <zorder>lineEdit</zorder>
-   <zorder>lineEdit_2</zorder>
+   <zorder>input</zorder>
    <zorder>label</zorder>
    <zorder>label_2</zorder>
    <zorder>pushButton</zorder>
@@ -362,7 +358,8 @@
    <zorder>label_3</zorder>
    <zorder>label_6</zorder>
    <zorder>label_7</zorder>
-   <zorder>label_9</zorder>
+   <zorder>Status</zorder>
+   <zorder>output</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -370,7 +367,7 @@
      <x>0</x>
      <y>0</y>
      <width>729</width>
-     <height>26</height>
+     <height>25</height>
     </rect>
    </property>
   </widget>

@@ -1,7 +1,7 @@
 #include "converter.h"
 #include <string>
 
-vector<string> countryCodes = {"AUD","INR"};
+vector<string> countryCodes = {"AUD","INR","NPR","CAD","CNY"};
 
 double stringToDouble(string val){
     double d_val = stod(val.c_str());
